@@ -1,0 +1,53 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+}
+.header .logo {
+  width: 100%;
+  max-width: 6rem;
+  max-height: 6rem;
+  cursor: pointer;
+}
+
+.header .navbar {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header .link {
+  font-size: 18px;
+  font-weight: 400;
+  color: #141c3a;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.header .link:hover {
+  color: #7510F7;
+}
+
+.header .btn-hello {
+  display: flex;
+  border-color: #7510F7;
+  color: #7510F7;
+  border-radius: 290486px;
+  height: 2.5em;
+  padding: 1.2rem;
+  margin-left: 1.3rem;
+  font-size: 18px;
+  align-items: center;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.header .btn-hello:hover {
+  border-color: #7510F7;
+  color: #fff;
+  background-color: #7510F7;
+}
