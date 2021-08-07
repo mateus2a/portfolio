@@ -1,0 +1,25 @@
+.footer {
+  background-color: #7510f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo-white {
+  width: 100%;
+  max-width: 6rem;
+  max-height: 6rem;
+  cursor: pointer;
+  display: inline;
+  background-color: #7510f7;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+.paragraph {
+  background-color: #7510f7;
+  text-align: center;
+  color: white;
+  margin-bottom: 2rem;
+}
