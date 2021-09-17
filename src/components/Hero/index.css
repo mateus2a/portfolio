@@ -1,0 +1,47 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 4rem;
+  color: #141c3a;
+}
+
+.title-hero {
+  text-align: center;
+  font-size: 2.8rem;
+}
+
+.text-hero {
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 300;
+  margin-top: 1rem;
+  padding: 2%;
+}
+
+.images {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar {
+  margin-top: 2rem;
+  width: 21rem;
+  height: auto;
+}
+
+.hero-pc {
+  margin-top: 3rem;
+  margin-bottom: -2rem;
+  max-width: 100%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+/* @media screen and (max-width: 768px) {
+  .hero-pc {
+    width: 100%;
+  }
+} */

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Header from './components/Header';
+import Hero from './components/Hero';
 import About from './components/About';
 import RecentWork from './components/RecentWork';
 import Footer from './components/Footer';
@@ -10,6 +11,7 @@ export default class App extends Component {
     return (
       <>
         <Header />
+        <Hero />
         <About />
         <RecentWork />
         <Footer />
