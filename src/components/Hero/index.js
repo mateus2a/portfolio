@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Avatar from '../../assets/avatar.svg';
+import HeroPc from '../../assets/hero-pc.svg';
 import './index.css';
 
 export default class Hero extends Component {
@@ -10,7 +11,10 @@ export default class Hero extends Component {
         <p className="text-hero">
           I design and code beautifully simple things, and I love what I do.
         </p>
-        <img src={Avatar} alt="My Avatar" />
+        <div className="images">
+          <img className="avatar" src={Avatar} alt="My Avatar" />
+          <img className="hero-pc" src={HeroPc} alt="My Pc" />
+        </div>
       </div>
     );
   }
