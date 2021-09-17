@@ -8,8 +8,8 @@
 
 .logo-white {
   width: 100%;
-  max-width: 6rem;
-  max-height: 6rem;
+  max-width: 8rem;
+  max-height: 8rem;
   cursor: pointer;
   display: inline;
   background-color: #7510f7;
@@ -21,5 +21,30 @@
   background-color: #7510f7;
   text-align: center;
   color: white;
-  margin-bottom: 2rem;
+  margin: 2rem auto;
+  font-weight: 300;
+  font-size: 1.6rem;
+  opacity: 0.7;
+}
+
+.social {
+  background-color: #7510f7;
+  display: flex;
+  width: 30%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+a {
+  background-color: #7510f7;
+}
+.circle {
+  display: flex;
+  background-color: #7510f7;
+  border: 3px solid #8b41eb;
+  height: 4rem;
+  border-radius: 50%;
+  width: 4rem;
+  opacity: 0.7;
+  align-items: center;
+  justify-content: center;
 }
