@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import { AiOutlineMail } from 'react-icons/ai';
+import { IconContext } from 'react-icons';
 import { FaTwitter, FaLinkedinIn } from 'react-icons/fa';
 import logoWhite from '../../assets/logo-white.png';
 import './index.css';
 
 export default class Footer extends Component {
+  styleIcons() {}
   render() {
-    const style = { backgroundColor: '#7510f7', color: 'white' };
-
     return (
       <div className="footer">
         <img className="logo-white" src={logoWhite} alt="Logo of the site" />
@@ -21,9 +21,15 @@ export default class Footer extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <div className="circle">
-              <FaTwitter size={26} style={style} />
-            </div>
+            <IconContext.Provider
+              value={{
+                className: 'icon',
+              }}
+            >
+              <div className="circle">
+                <FaTwitter size={26} />
+              </div>
+            </IconContext.Provider>
           </a>
           <a
             className="social-links"
@@ -31,9 +37,15 @@ export default class Footer extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <div className="circle">
-              <FaLinkedinIn size={26} style={style} />
-            </div>
+            <IconContext.Provider
+              value={{
+                className: 'icon',
+              }}
+            >
+              <div className="circle">
+                <FaLinkedinIn size={26} />
+              </div>
+            </IconContext.Provider>
           </a>
           <a
             className="social-links"
@@ -41,9 +53,15 @@ export default class Footer extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <div className="circle">
-              <AiOutlineMail size={26} style={style} />
-            </div>
+            <IconContext.Provider
+              value={{
+                className: 'icon',
+              }}
+            >
+              <div className="circle">
+                <AiOutlineMail size={26} />
+              </div>
+            </IconContext.Provider>
           </a>
         </div>
         <div className="copyright">

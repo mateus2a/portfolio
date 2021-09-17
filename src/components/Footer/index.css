@@ -47,6 +47,23 @@ a {
   opacity: 0.7;
   align-items: center;
   justify-content: center;
+  transition: 0.4s;
+}
+
+.circle:hover {
+  background-color: white;
+  border: 3px solid white;
+}
+
+.icon {
+  background-color: #7510f7;
+  transition: 0.4s;
+  color: white;
+}
+
+.circle:hover .icon {
+  background-color: white;
+  color: #7510f7;
 }
 
 .copyright {
@@ -67,6 +84,7 @@ a {
   color: white;
   opacity: 0.7;
   text-decoration: none;
+  transition: 0.4s ease-in;
 }
 
 .copyright-link:hover {
