@@ -34,7 +34,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-a {
+.social-links {
   background-color: #7510f7;
 }
 .circle {
