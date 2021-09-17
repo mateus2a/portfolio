@@ -32,7 +32,7 @@
   display: flex;
   width: 25%;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .social-links {
   background-color: #7510f7;
@@ -48,6 +48,7 @@
   align-items: center;
   justify-content: center;
   transition: 0.4s;
+  margin: 0 0.2rem;
 }
 
 .circle:hover {
