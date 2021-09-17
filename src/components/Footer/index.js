@@ -47,8 +47,12 @@ export default class Footer extends Component {
           </a>
         </div>
         <div className="copyright">
-          Handcrafted by me &copy; Based on{' '}
-          <a href="https://mattfarley.ca/">Matt Farley</a>
+          <p className="copyright-text">
+            Handcrafted by me &copy; Based on{' '}
+            <a className="copyright-link" href="https://mattfarley.ca/">
+              Matt Farley
+            </a>
+          </p>
         </div>
       </div>
     );

@@ -48,3 +48,27 @@ a {
   align-items: center;
   justify-content: center;
 }
+
+.copyright {
+  margin: 2rem;
+  background-color: #7510f7;
+  font-size: 1.2rem;
+}
+
+.copyright-text {
+  opacity: 0.7;
+  color: white;
+  opacity: 0.7;
+  background-color: #7510f7;
+}
+
+.copyright-link {
+  background-color: #7510f7;
+  color: white;
+  opacity: 0.7;
+  text-decoration: none;
+}
+
+.copyright-link:hover {
+  opacity: 1;
+}
