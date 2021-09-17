@@ -30,7 +30,7 @@
 .social {
   background-color: #7510f7;
   display: flex;
-  width: 30%;
+  width: 25%;
   flex-direction: row;
   justify-content: space-between;
 }
