@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import Designer from '../../assets/designer.svg';
+import FrontEnd from '../../assets/frontend.svg';
 import './index.css';
 
 export default class Skills extends Component {
@@ -6,6 +8,7 @@ export default class Skills extends Component {
     return (
       <div className="skills">
         <div className="skill">
+          <img classname="img-skill" src={Designer} alt="Designer Logo" />
           <h3 className="title-skill">Designer</h3>
           <p className="subtitle">
             I value simple content structure, clean design patterns, and
@@ -26,6 +29,7 @@ export default class Skills extends Component {
           </div>
         </div>
         <div className="skill">
+          <img classname="img-skill" src={FrontEnd} alt="Designer Logo" />
           <h3 className="title-skill">Front-end Developer</h3>
           <p className="subtitle">
             I like to code things from scratch, and enjoy bringing ideas to life
