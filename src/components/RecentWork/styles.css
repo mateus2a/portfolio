@@ -18,6 +18,7 @@
   font-weight: 300;
   line-height: 1.5;
   margin-bottom: 3.5rem;
+  text-align: center;
 }
 .email-me {
   font-weight: 500;
@@ -41,4 +42,6 @@
   width: 18rem;
   height: 12rem;
   margin: 10px;
+  padding-left: 4%;
+  padding-right: 4%;
 }

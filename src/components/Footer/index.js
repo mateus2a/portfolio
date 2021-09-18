@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { AiOutlineMail } from 'react-icons/ai';
+import { AiOutlineMail, AiFillGithub } from 'react-icons/ai';
 import { IconContext } from 'react-icons';
 import { FaTwitter, FaLinkedinIn } from 'react-icons/fa';
 import logoWhite from '../../assets/logo-white.png';
@@ -27,7 +27,7 @@ export default class Footer extends Component {
               }}
             >
               <div className="circle">
-                <FaTwitter size={26} />
+                <FaTwitter size={20} />
               </div>
             </IconContext.Provider>
           </a>
@@ -43,7 +43,7 @@ export default class Footer extends Component {
               }}
             >
               <div className="circle">
-                <FaLinkedinIn size={26} />
+                <FaLinkedinIn size={20} />
               </div>
             </IconContext.Provider>
           </a>
@@ -59,7 +59,23 @@ export default class Footer extends Component {
               }}
             >
               <div className="circle">
-                <AiOutlineMail size={26} />
+                <AiOutlineMail size={22} />
+              </div>
+            </IconContext.Provider>
+          </a>
+          <a
+            className="social-links"
+            href="https://github.com/mateus2a"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <IconContext.Provider
+              value={{
+                className: 'icon',
+              }}
+            >
+              <div className="circle">
+                <AiFillGithub size={24} />
               </div>
             </IconContext.Provider>
           </a>

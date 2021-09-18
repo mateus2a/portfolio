@@ -8,7 +8,8 @@
 
 .title-hero {
   text-align: center;
-  font-size: 2.8rem;
+  font-size: 2rem;
+  padding: 0.2rem;
 }
 
 .text-hero {
@@ -40,8 +41,18 @@
   padding-right: 2%;
 }
 
-/* @media screen and (max-width: 768px) {
-  .hero-pc {
-    width: 100%;
+@media screen and (max-width: 600px) {
+  .title-hero {
+    text-align: center;
+    font-size: 1.4rem;
+    padding: 0.4rem;
   }
-} */
+
+  .text-hero {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 300;
+    margin-top: 1rem;
+    padding: 0.4rem;
+  }
+}

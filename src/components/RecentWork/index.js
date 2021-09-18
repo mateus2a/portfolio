@@ -2,12 +2,14 @@ import React, { Component } from 'react';
 import './styles.css';
 
 export default class Header extends Component {
-  render() { 
+  render() {
     return (
       <section className="container">
         <h2>My Recent Work</h2>
-        <span>Here are a few design projects I've worked on recently. Want to see more? 
-          <a href="#" className="email-me">
+        <span>
+          Here are a few design projects I've worked on recently. Want to see
+          more?
+          <a href="mailto:mtauws@gmail.com" className="email-me">
             Email me.
           </a>
         </span>

@@ -28,13 +28,13 @@
 }
 
 .header .link:hover {
-  color: #7510F7;
+  color: #7510f7;
 }
 
 .header .btn-hello {
   display: flex;
-  border-color: #7510F7;
-  color: #7510F7;
+  border-color: #7510f7;
+  color: #7510f7;
   border-radius: 290486px;
   height: 2.5em;
   padding: 1.2rem;
@@ -47,7 +47,13 @@
 }
 
 .header .btn-hello:hover {
-  border-color: #7510F7;
+  border-color: #7510f7;
   color: #fff;
-  background-color: #7510F7;
+  background-color: #7510f7;
+}
+
+@media screen and (max-width: 360px) {
+  .link {
+    display: none;
+  }
 }

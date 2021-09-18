@@ -13,11 +13,13 @@
   background-color: #7510f7;
   margin-top: 4rem;
   margin-bottom: 1.5rem;
-  font-weight: 600;
+  font-weight: bolder;
   line-height: 1.125;
   font-size: 2rem;
   width: 100%;
   text-align: center;
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
 }
 
 .about-text {
@@ -43,6 +45,23 @@
     color: white;
     background-color: #7510f7;
     font-size: 1.2rem;
+    text-align: center;
+    width: 800px;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    padding-bottom: 15rem;
+  }
+}
+
+@media screen and (max-width: 368px) {
+  .about-title {
+    font-size: 1.2rem;
+  }
+
+  .about-text {
+    color: white;
+    background-color: #7510f7;
+    font-size: 0.8rem;
     text-align: center;
     width: 800px;
     padding-left: 1.2rem;
