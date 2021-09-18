@@ -5,6 +5,7 @@
   justify-content: center;
   width: 100%;
   background-color: #7510f7;
+  z-index: 1;
 }
 
 .about-title {

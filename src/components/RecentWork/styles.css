@@ -1,4 +1,3 @@
-
 .container {
   display: flex;
   justify-content: center;
@@ -8,7 +7,7 @@
 }
 
 .container h2 {
-  color: #141C3A;
+  color: #141c3a;
   font-size: 1.5rem;
   font-weight: 800;
   margin-bottom: 1rem;
@@ -22,7 +21,7 @@
 }
 .email-me {
   font-weight: 500;
-  color: #7510F7;
+  color: #7510f7;
   padding-left: 8px;
   text-decoration: none;
 }
@@ -33,6 +32,7 @@
   flex-wrap: wrap;
   justify-content: center;
   max-width: 960px;
+  margin-bottom: 2rem;
 }
 
 .project-wrapper {

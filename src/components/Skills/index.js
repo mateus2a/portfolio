@@ -8,7 +8,7 @@ export default class Skills extends Component {
     return (
       <div className="skills">
         <div className="skill">
-          <img classname="img-skill" src={Designer} alt="Designer Logo" />
+          <img className="img-skill" src={Designer} alt="Designer Logo" />
           <h3 className="title-skill">Designer</h3>
           <p className="subtitle">
             I value simple content structure, clean design patterns, and
@@ -20,8 +20,8 @@ export default class Skills extends Component {
           </div>
 
           <div className="section-three">
-            <h4 className="title-three">Dev Tools</h4>
-            <ul>
+            <h4 className="title-three">Design Tools:</h4>
+            <ul className="list">
               <li>Balsamiq Mockups</li>
               <li>Figma</li>
               <li>Marvel</li>
@@ -29,7 +29,7 @@ export default class Skills extends Component {
           </div>
         </div>
         <div className="skill">
-          <img classname="img-skill" src={FrontEnd} alt="Designer Logo" />
+          <img className="img-skill" src={FrontEnd} alt="Designer Logo" />
           <h3 className="title-skill">Front-end Developer</h3>
           <p className="subtitle">
             I like to code things from scratch, and enjoy bringing ideas to life
@@ -41,8 +41,8 @@ export default class Skills extends Component {
           </div>
 
           <div className="section-three">
-            <h4 className="title-three">Dev Tools</h4>
-            <ul>
+            <h4 className="title-three">Dev Tools:</h4>
+            <ul className="list">
               <li>Visual Studio Code</li>
               <li>Bootstrap</li>
               <li>Terminal</li>
