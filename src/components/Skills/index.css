@@ -11,6 +11,8 @@
   border: 1px solid #e6ecf8;
   margin-top: -7rem;
   border-radius: 1.4rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 
 .img-skill {
@@ -78,6 +80,7 @@
   .skills {
     flex-wrap: wrap;
   }
+
   .skill:nth-child(1) {
     margin-bottom: 8rem;
   }

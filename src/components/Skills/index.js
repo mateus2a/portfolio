@@ -48,7 +48,7 @@ export default class Skills extends Component {
               <li>Terminal</li>
               <li>Github</li>
               <li>Gitlab</li>
-              <li>TailWind</li>
+              <li>ReactJS</li>
             </ul>
           </div>
         </div>
